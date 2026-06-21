@@ -19,6 +19,13 @@ The model is developed using YOLOv8 object detection and trained on annotated de
 * Pandas
 * Matplotlib
 * Jupyter Notebook
+  
+## Installation
+
+'''bash
+git clone https://github.com/deepthikachallakonda0707/Dental-Image-Analysis-for-Caries-Recognition.git
+cd Dental-Image-Analysis-for-Caries-Recognition
+pip install -r requirements.txt
 
 ## Dataset
 The dataset consists of annotated dental X-ray images collected from Roboflow.
@@ -53,6 +60,7 @@ Training Pipeline:
 ## Results
 The trained model successfully detects dental caries in X-ray images and demonstrates the effectiveness of deep learning for dental image analysis.
 Sample prediction results and evaluation metrics are available in the `results` folder.
+
 
 ## Future Improvements
 * Increase dataset size for improved generalization
