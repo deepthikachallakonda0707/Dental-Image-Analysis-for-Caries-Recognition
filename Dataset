@@ -1,1 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
 
+nc: 2
+names: ['Decay', 'Healthy']
+
+roboflow:
+  workspace: akshay-wis4g
+  project: tooth-b278v
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/akshay-wis4g/tooth-b278v/dataset/15
